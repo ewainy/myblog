@@ -212,3 +212,12 @@ git commit -m "example config + language code"
 git push --set-upstream origin exampleConfig
 ```
 I then reviewed and merged PR into main on GitHub and deleted the branch.
+
+\*Note to self, Remember to delete branch on local 🙃\*
+```
+git checkout main
+git branch -d exampleConfig
+git fetch origin main
+git merge
+```
+Panic Over! 😅
