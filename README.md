@@ -222,9 +222,18 @@ git merge
 ```
 Panic Over! 😅
 
-### Create post.md
+### Create post.md archetype
+**What are archetypes?**
+> Archetypes are templates used when creating new content 
+
+They contain preconfigured front matter so it is easy to generate new posts on the fly!
+
+Read more about archetypes in Hugo 👉 [Hugo Archetypes](https://gohugo.io/content-management/archetypes/#create-a-new-archetype-template)
+
+
 Create file called 'post.md' in archetypes folder archetypes/post.md
-Copied & Pasted example from PaperMod
+<br>
+Copied & pasted example from PaperMod
 
 ```yml
 ---
