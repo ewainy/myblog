@@ -226,9 +226,14 @@ Panic Over! 😅
 **What are archetypes?**
 > Archetypes are templates used when creating new content 
 
-They contain preconfigured front matter so it is easy to generate new posts on the fly!
+They contain preconfigured **front matter** so it is easy to generate new posts on the fly!
 
-Read more about archetypes in Hugo 👉 [Hugo Archetypes](https://gohugo.io/content-management/archetypes/#create-a-new-archetype-template)
+**What is front matter?**
+> Front Matter is structured metadata that lives at the top of your content files that allows you to add custom variables to your pages.
+
+Examples of front matter you might have for a blog: 'Title' 'Summary' 'Date' 'Author' 
+
+**Read more about archetypes in Hugo** 👉 [Hugo Archetypes](https://gohugo.io/content-management/archetypes/#create-a-new-archetype-template)
 
 
 Create file called 'post.md' in archetypes folder archetypes/post.md
@@ -269,4 +274,10 @@ editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
+```
+
+We will then use `hugo new` followed by `posts/my-first-post.md` which uses the content-section to find the most suitable archetype template in a project. It will then create a new content file in content/posts/my-first-post.md using the archetype file to generate the front matter for us in our newly created 'my-first-post' file. 
+
+```
+hugo new posts/my-first-post.md
 ```
