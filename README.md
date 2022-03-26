@@ -276,8 +276,14 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ```
 
-We will then use `hugo new` followed by `posts/my-first-post.md` which uses the content-section to find the most suitable archetype template in a project. It will then create a new content file in content/posts/my-first-post.md using the archetype file to generate the front matter for us in our newly created 'my-first-post' file. 
+We will then use `hugo new` followed by `post/my-first-post.md`. Hugo uses the content section to find the most suitable archetype template in a project. Since we dont currently have any directories in the content path it will create that for us too.
+It will then create the new file `my-first-post.md` which will have this pathway: `content/post/my-first-post.md`
+<br>
+Hugo will look for the archetype that **matches** `post` or will fall back on a `default` archetype. Since we have created a `post` archetype it will use the front matter we created in this archetype file to generate the front matter for us in our newly created `my-first-post` file. 
 
 ```
-hugo new posts/my-first-post.md
+hugo new post/my-first-post.md
 ```
+
+**Further explanation:**
+> By default, everything created within a section will use the content type that matches the root section name. For example, Hugo will assume that posts/post-1.md has a posts content type. If you are using an archetype for your posts section, Hugo will generate front matter according to what it finds in archetypes/posts.md. [Hugo Content Section](https://gohugo.io/content-management/sections/)
