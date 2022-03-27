@@ -282,6 +282,7 @@ Error: Error building site: failed to render pages: render of "page" failed: exe
 ```
 
 ---
+*** Ignore this section until error on build is resolved ***
 We will then use `hugo new` followed by `post/my-first-post.md`. Hugo uses the content section to find the most suitable archetype template in a project. Since we dont currently have any directories in the content path it will create that for us too.
 It will then create the new file `my-first-post.md` which will have this pathway: `content/post/my-first-post.md`
 <br>
