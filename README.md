@@ -274,15 +274,9 @@ editPost:
     URL: "https://github.com/<path_to_repo>/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
+---
 ```
 ---
-The following intended use of generating new posts & front matter from archetypes with `hugo new` command seems to create an error for me on build, please dont follow the next section until this error can be resolved. Instead manually create markdown pages for now.
-```
-Error: Error building site: failed to render pages: render of "page" failed: execute of template failed: template: _default/single.html:5:8: executing "_default/single.html" at <partial "head.html" .>: error calling partial: execute of template failed: template: partials/templates/opengraph.html:45:17: executing "partials/templates/opengraph.html" at <index $siteSeries ($name | urlize)>: error calling index: index of untyped nil
-```
-
----
-### **Ignore this section until error on build is resolved**
 We will then use `hugo new` followed by `post/my-first-post.md`. Hugo uses the content section to find the most suitable archetype template in a project. Since we dont currently have any directories in the content path it will create that for us too.
 It will then create the new file `my-first-post.md` which will have this pathway: `content/post/my-first-post.md`
 <br>
