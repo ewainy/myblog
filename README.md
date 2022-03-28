@@ -24,7 +24,7 @@ I used these references to help with installation and setting up on my local and
 * [GitHub - Importing Projects](
 https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github)
 
-### Mac Terminal Commands 🖥
+### Terminal Commands 🖥
 In my terminal I entered the following commands to create a new folder & hugo site:
 ```
 ls
