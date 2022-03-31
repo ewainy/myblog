@@ -292,4 +292,4 @@ hugo new post/my-first-post.md
 <br>
 I think that's about it for setting up and getting started! 🤔 
 
-I will be adding my `customisations` in a seperate file on this GitHub repository which will be called `Customising.md`
+I will be adding my `customisations` in a seperate file on this GitHub repository which will be called [`Customising.md`](./Customizing.md)
