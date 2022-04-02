@@ -290,6 +290,17 @@ hugo new post/my-first-post.md
 > By default, everything created within a section will use the content type that matches the root section name. For example, Hugo will assume that posts/post-1.md has a posts content type. If you are using an archetype for your posts section, Hugo will generate front matter according to what it finds in archetypes/posts.md. [Hugo Content Section](https://gohugo.io/content-management/sections/)
 
 <br>
-I think that's about it for setting up and getting started! 🤔 
+
+## Customisations 🎨
 
 I will be adding my `customisations` in a seperate file on this GitHub repository which will be called [`Customising.md`](./Customising.md)
+
+## Build 👷🏼‍♀️
+
+Build static pages by running this command in the terminal:
+
+```
+hugo -D
+```
+Output will be in `./public/` directory by default
+
