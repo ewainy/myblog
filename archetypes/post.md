@@ -6,7 +6,6 @@ date: "2019-03-11"
 tags: ["first"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
-categories: ["themes", "syntax"]
 
 
 showToc: true
