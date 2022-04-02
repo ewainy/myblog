@@ -7,7 +7,7 @@ tags: ["first"]
 author: "Me"
 # author: ["Me", "You"] # multiple authors
 categories: ["themes", "syntax"]
-series: ["Themes Guide"]
+
 
 showToc: true
 TocOpen: false
