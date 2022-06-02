@@ -17,9 +17,9 @@ minify:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: ExampleSite
-  description: "ExampleSite description"
-  keywords: [Blog, Portfolio, PaperMod]
+  title: Emma's Blog
+  description: "A blog about working in tech, web development and personal development"
+  keywords: [Blog, Portfolio, Tech, Web Development]
   author: Me
   # author: ["Me", "You"] # multiple authors
   images: ["<link or path of image for opengraph, twitter-cards>"]
